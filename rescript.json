@@ -1,0 +1,29 @@
+{
+  "name": "diver",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "esmodule",
+      "in-source": true
+    }
+  ],
+  "suffix": ".res.mjs",
+  "bs-dependencies": [
+    "@rescript/core",
+    "@rescript/react",
+    "bs-css",
+    "bs-css-emotion",
+    "rescript-webapi"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore"
+  ],
+  "jsx": {
+    "version": 4
+  }
+}
